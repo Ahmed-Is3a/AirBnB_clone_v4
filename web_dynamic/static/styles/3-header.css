@@ -9,3 +9,21 @@ header .logo {
     left: 20px;
     height: 100%;
 }
+
+header #api_status {
+    width: 40px; /* Diameter of the circle */
+    height: 40px; /* Diameter of the circle */
+    background-color: white; /* Background color of the circle */
+    border-radius: 50%; /* Makes the div circular */
+    position: absolute;
+    right: 30px; /* 30px from the right border of the viewport */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Align center vertically */
+    align-items: center;
+    border-radius: 40px;
+    background-color: #CCCCCC;
+
+}
+header .available {
+    background-color: #ff545f;
+}
